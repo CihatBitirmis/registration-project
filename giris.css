@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    background-image: url(gökyüzü.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(240, 236, 235);
+    list-style-type: none;
+}
+
+.form { 
+    border-radius: 5px;
+    width: 400px;
+    height: 600px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-shadow: 10px 10px 10px;
+    color: #fff;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.information input {
+    color: grey;
+    width: 300px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+    background-color: rgb(27, 102, 201);
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 300px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: color 0.4s linear;
+}
+
+.btn button:hover {
+    color: black;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding-top: 25px;
+    color: wheat;
+}
+
+.login a {
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.login a:active {
+    color: black;
+}
+
+.button li {
+    display: inline-block;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.button .youtube {
+    color: red;
+}
